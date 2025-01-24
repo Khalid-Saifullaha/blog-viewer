@@ -6,17 +6,6 @@ export default function Footer() {
         <p className="text-sm">
           All rights reserved &copy; {new Date().getFullYear()}
         </p>
-        <div className="mt-4">
-          <a href="#" className="mx-2 hover:text-gray-200">
-            Privacy Policy
-          </a>
-          <a href="#" className="mx-2 hover:text-gray-200">
-            Terms of Service
-          </a>
-          <a href="#" className="mx-2 hover:text-gray-200">
-            Contact
-          </a>
-        </div>
       </div>
     </footer>
   );
